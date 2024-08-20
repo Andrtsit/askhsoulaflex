@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bigcontainer {
+  margin: 80px auto;
+  background-color: #8ce99a;
+  border: 5px solid #2f9e44;
+  height: 600px;
+  width: 800px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerone {
+  background-color: #74c0fc;
+  border: 5px solid #1971c2;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 2%;
+}
+.containerone-first {
+  flex-grow: 1;
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+}
+.containerone-second {
+  flex-grow: 1;
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+  display: flex;
+  padding: 5px;
+}
+.containerone-second- {
+  background-color: #9c36b5;
+  border: 5px solid red;
+  flex-grow: 1;
+}
+.containerone-second-- {
+  background-color: #9c36b5;
+  border: 5px solid red;
+  flex-grow: 1;
+}
+.containerone-third {
+  flex-grow: 1;
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+}
+.containertwo {
+  background-color: #8ce99a;
+
+  height: 240px;
+  display: flex;
+  gap: 5px;
+}
+.containertwo-first {
+  flex-grow: 1;
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+}
+.containertwo-second {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.containertwo-second- {
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+  flex-grow: 1;
+}
+.containertwo-second-- {
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+  flex-grow: 1;
+}
+.containerthree {
+  background-color: #74c0fc;
+  border: 5px solid #1971c2;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.containerthree-first {
+  background-color: #91a7ff;
+  border: 5px solid #1971c2;
+  flex-grow: 2;
+}
+.containerthree-second {
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+  flex-grow: 1;
+}
+.containerthree-third {
+  background-color: #ffa8a8;
+  border: 5px solid #e03131;
+  flex-grow: 1;
+}
+.containerthree-fourth {
+  background-color: #91a7ff;
+  border: 5px solid #1971c2;
+  flex-grow: 2;
+}
